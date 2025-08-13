@@ -1,0 +1,13 @@
+C:/Users/Yashal/Desktop/UHD-Fairwaves/host/build/CMakeFiles/umtrx.dir
+C:/Users/Yashal/Desktop/UHD-Fairwaves/host/build/CMakeFiles/uninstall.dir
+C:/Users/Yashal/Desktop/UHD-Fairwaves/host/build/CMakeFiles/PACKAGE.dir
+C:/Users/Yashal/Desktop/UHD-Fairwaves/host/build/CMakeFiles/INSTALL.dir
+C:/Users/Yashal/Desktop/UHD-Fairwaves/host/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Yashal/Desktop/UHD-Fairwaves/host/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Yashal/Desktop/UHD-Fairwaves/host/build/utils/CMakeFiles/umtrx_test_chains.dir
+C:/Users/Yashal/Desktop/UHD-Fairwaves/host/build/utils/CMakeFiles/umtrx_test_gains.dir
+C:/Users/Yashal/Desktop/UHD-Fairwaves/host/build/utils/CMakeFiles/umtrx_cal_tx_dc_offset.dir
+C:/Users/Yashal/Desktop/UHD-Fairwaves/host/build/utils/CMakeFiles/umtrx_cal_tx_iq_balance.dir
+C:/Users/Yashal/Desktop/UHD-Fairwaves/host/build/utils/CMakeFiles/umtrx_pa_ctrl.dir
+C:/Users/Yashal/Desktop/UHD-Fairwaves/host/build/utils/CMakeFiles/PACKAGE.dir
+C:/Users/Yashal/Desktop/UHD-Fairwaves/host/build/utils/CMakeFiles/INSTALL.dir

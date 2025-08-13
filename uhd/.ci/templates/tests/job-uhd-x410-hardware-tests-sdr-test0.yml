@@ -1,0 +1,38 @@
+parameters:
+- name: uhdArtifactSource
+  type: string
+  default: current
+- name: uhdFpgaArtifactSource
+  type: string
+  default: current
+- name: fpga_imgs_source
+  type: string
+  values:
+    - 'Filesystem'
+    - 'Pipeline'
+
+jobs:
+- template: templates/job-uhd-x4xx-hardware-tests.yml
+  parameters:
+    suiteName: 'sdr_test0_x410'
+    toolset: 'make'
+    runPyTest: false
+    runPyTestNonRF: true
+    runDevTest: true
+    runSystemImageTest: true
+    runRfnocBlockTest: true
+    uhdArtifactSource: ${{ parameters.uhdArtifactSource }}
+    uhdFpgaArtifactSource: ${{ parameters.uhdFpgaArtifactSource }}
+    fpga_imgs_source: ${{ parameters.fpga_imgs_source }}
+    dutMatrix:
+      sdr-test0-x410-0:
+        dutName: 'sdr-test0-x410-0'
+        dutType: 'x4xx'
+        devtestPattern: 'x410'
+        dutFPGA: 'X4_200'
+        dutEmbeddedImagesArtifact: 'x4xx-images'
+        uartSerial: $(x410_uartSerial)
+        pipelineAgent: sdr-test0-0
+        pytestAtsConfig: sdr_test0_ats
+        pytestDUT: 'x410'
+        sfp0ip: $(x410_dutAddr)

@@ -1,0 +1,54 @@
+; USRP_B200.inf
+; Copyright (c) 2010 libusb (GNU LGPL)
+[Strings]
+VendorName = "Cypress Semiconductor Corp."
+SourceName = "USRP B200 Install Disk"
+ProviderName = "Ettus Research"
+VendorID   = "VID_04B4"
+dev0_DeviceName = "USRP B200 - Reinitialization"
+dev1_DeviceName = "Cypress FX3"
+dev0_DeviceID  = "PID_00F0"
+dev1_DeviceID  = "PID_00F3"
+DeviceGUID = "{2E9CF8FE-046C-4318-B05A-928F69AFBD32}"
+
+[Version]
+Signature   = "$Windows NT$"
+Class       = "USBDevice"
+ClassGuid   = {88bae032-5a81-49f0-bc3d-a4ff138216d6}
+Provider    = %ProviderName%
+CatalogFile = erllc_uhd.cat
+DriverVer   = 03/31/2025, 6.1.7600.16385
+
+[Manufacturer]
+%VendorName% = libusbDevice_WinUSB,NTx86,NTamd64
+
+[libusbDevice_WinUSB.NTx86]
+%dev0_DeviceName% = USB_Install, USB\%VendorID%&%dev0_DeviceID%
+%dev1_DeviceName% = USB_Install, USB\%VendorID%&%dev1_DeviceID%
+
+[libusbDevice_WinUSB.NTamd64]
+%dev0_DeviceName% = USB_Install, USB\%VendorID%&%dev0_DeviceID%
+%dev1_DeviceName% = USB_Install, USB\%VendorID%&%dev1_DeviceID%
+
+[USB_Install]
+Include = winusb.inf
+Needs   = WINUSB.NT
+
+[USB_Install.Services]
+Include    = winusb.inf
+Needs=WINUSB.NT.Services
+
+[USB_Install.Wdf]
+KmdfService = WINUSB, WinUsb_Install
+
+[WinUSB_Install]
+KmdfLibraryVersion = 1.9
+
+[USB_Install.HW]
+AddReg = AddDeviceInterfaceGUID
+
+[NoDeviceInterfaceGUID]
+; Avoids adding a DeviceInterfaceGUID for generic driver
+
+[AddDeviceInterfaceGUID]
+HKR,,DeviceInterfaceGUIDs,0x10000,%DeviceGUID%

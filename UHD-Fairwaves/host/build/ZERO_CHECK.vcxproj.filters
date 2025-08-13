@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Yashal\Desktop\UHD-Fairwaves\host\build\CMakeFiles\6f7a611420fdb0a4c326c7489b98c012\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Yashal\Desktop\UHD-Fairwaves\host\cmake\GetGitRevisionDescription.cmake">
+      <Filter>Buildsystem Input Files\cmake</Filter>
+    </None>
+    <None Include="C:\Users\Yashal\Desktop\UHD-Fairwaves\host\cmake\GetGitRevisionDescription.cmake.in">
+      <Filter>Buildsystem Input Files\cmake</Filter>
+    </None>
+    <None Include="C:\Users\Yashal\Desktop\UHD-Fairwaves\host\cmake_uninstall.cmake.in">
+      <Filter>Buildsystem Input Files</Filter>
+    </None>
+    <None Include="C:\Users\Yashal\Desktop\UHD-Fairwaves\host\umtrx_version.in.hpp">
+      <Filter>Buildsystem Input Files</Filter>
+    </None>
+    <None Include="C:\Users\Yashal\Desktop\UHD-Fairwaves\host\utils\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\utils</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6A0BDF72-82FF-3B1B-BD55-58155AB0A70C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D0AA0636-0BE5-3CA4-B556-ABFF38035720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files">
+      <UniqueIdentifier>{50E45A38-81D5-3EBB-8082-C76D920647E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\cmake">
+      <UniqueIdentifier>{D1520637-F667-35D8-B1DD-7422BE4674A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\utils">
+      <UniqueIdentifier>{9D8B2B9F-D16D-344B-A937-E8294374E868}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

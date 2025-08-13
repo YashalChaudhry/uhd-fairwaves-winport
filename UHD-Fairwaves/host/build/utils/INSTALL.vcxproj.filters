@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Yashal\Desktop\UHD-Fairwaves\host\build\CMakeFiles\7b1bb5385955a1536a8d46b5c5694adf\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6A0BDF72-82FF-3B1B-BD55-58155AB0A70C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

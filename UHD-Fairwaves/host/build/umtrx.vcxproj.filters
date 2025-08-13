@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Yashal\Desktop\UHD-Fairwaves\host\umtrx_impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Yashal\Desktop\UHD-Fairwaves\host\umtrx_monitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Yashal\Desktop\UHD-Fairwaves\host\umtrx_io_impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Yashal\Desktop\UHD-Fairwaves\host\umtrx_find.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Yashal\Desktop\UHD-Fairwaves\host\umtrx_iface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Yashal\Desktop\UHD-Fairwaves\host\umtrx_eeprom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Yashal\Desktop\UHD-Fairwaves\host\lms6002d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Yashal\Desktop\UHD-Fairwaves\host\lms6002d_ctrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Yashal\Desktop\UHD-Fairwaves\host\tmp102_ctrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Yashal\Desktop\UHD-Fairwaves\host\ads1015_ctrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Yashal\Desktop\UHD-Fairwaves\host\power_amp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Yashal\Desktop\UHD-Fairwaves\host\umtrx_fifo_ctrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Yashal\Desktop\UHD-Fairwaves\host\missing\platform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Yashal\Desktop\UHD-Fairwaves\host\cores\rx_frontend_core_200.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Yashal\Desktop\UHD-Fairwaves\host\cores\tx_frontend_core_200.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Yashal\Desktop\UHD-Fairwaves\host\cores\rx_dsp_core_200.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Yashal\Desktop\UHD-Fairwaves\host\cores\tx_dsp_core_200.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Yashal\Desktop\UHD-Fairwaves\host\cores\time64_core_200.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Yashal\Desktop\UHD-Fairwaves\host\cores\validate_subdev_spec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Yashal\Desktop\UHD-Fairwaves\host\cores\apply_corrections.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Yashal\Desktop\UHD-Fairwaves\host\umsel2_ctrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Yashal\Desktop\UHD-Fairwaves\host\build\boost_exception_handler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Yashal\Desktop\UHD-Fairwaves\host\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FD852D10-1588-337A-903C-F87DD71B5991}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
